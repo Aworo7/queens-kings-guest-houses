@@ -1,0 +1,6 @@
+{
+  "name": "Queens & Kings Guest Houses",
+  "description": "Premium, fully functional booking website for Queens & Kings Guest Houses, Cape Town.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
