@@ -10,7 +10,7 @@ export const AccommodationPage = () => (
         <div key={room} className="border border-stone-200 rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition">
           <h3 className="text-xl font-bold text-emerald-900 mb-2">{room}</h3>
           <p className="text-stone-600 mb-4">Comfortable stay for your needs.</p>
-          <Button variant="outline" className="w-full" onClick={() => window.open(WHATSAPP_URL, '_blank')}>Enquire on WhatsApp</Button>
+          <Button variant="outline" className="w-full" onClick={() => window.open(WHATSAPP_URL, '_blank')}>Book on WhatsApp: +27 68 868 0158</Button>
         </div>
       ))}
     </div>
@@ -71,6 +71,6 @@ export const ContactPage = () => (
   <div className="container mx-auto py-16 px-4 text-center">
     <h1 className="text-4xl font-serif text-emerald-900 mb-8">Contact Us</h1>
     <p className="text-lg text-stone-700 mb-4">Queens & Kings Guest Houses, Cape Town.</p>
-    <Button onClick={() => window.open(WHATSAPP_URL, '_blank')} className="mt-4">Chat on WhatsApp</Button>
+    <Button onClick={() => window.open(WHATSAPP_URL, '_blank')} className="mt-4">Book on WhatsApp: +27 68 868 0158</Button>
   </div>
 );
